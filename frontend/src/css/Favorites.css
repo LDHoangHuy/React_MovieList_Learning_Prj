@@ -10,15 +10,16 @@
   font-size: 2.5rem;
   color: black;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-bottom: 4px solid black;
 }
 
 .favorites-empty {
   text-align: center;
   padding: 4rem 2rem;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgb(218, 216, 216);
   border-radius: 12px;
   margin: 2rem auto;
-  max-width: 600px;
+  max-width: 1000px;
 }
 
 .favorites-empty h2 {
@@ -28,8 +29,8 @@
 }
 
 .favorites-empty p {
-  color: #999;
-  font-size: 1.2rem;
+  color: #3a3939;
+  font-size: 1.5rem;
   line-height: 1.6;
 }
 
