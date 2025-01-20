@@ -8,8 +8,12 @@
 }
 
 .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
+}
+
+.navbar-brand a {
+  color: yellow;
 }
 
 .navbar-links {
@@ -18,10 +22,11 @@
 }
 
 .nav-link {
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.2s;
+  color: white;
 }
 
 .nav-link:hover {
