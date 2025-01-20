@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import "../css/MovieCard.css";
 
 function MovieCard({ movie }) {
   function onFavoriteClick() {
@@ -11,7 +12,7 @@ function MovieCard({ movie }) {
         <img src={movie.url} alt={movie.title} />
         <div className="movie-overlay">
           <button className="favorite-btn" onClick={onFavoriteClick}>
-            love_icon
+            ♥
           </button>
         </div>
       </div>
