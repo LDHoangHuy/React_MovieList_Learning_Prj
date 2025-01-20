@@ -1,6 +1,6 @@
 .movie-card {
   position: relative;
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
   background-color: #1a1a1a;
   transition: transform 0.2s;
@@ -89,6 +89,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  color: white;
 }
 
 .movie-info h3 {
@@ -97,7 +98,7 @@
 }
 
 .movie-info p {
-  color: #999;
+  color: rgb(218, 216, 216);
   font-size: 0.9rem;
 }
 

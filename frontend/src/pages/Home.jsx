@@ -8,6 +8,7 @@ function Home() {
   const [movies, setMovies] = useState([]);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [isPopularMoviesOn, setIsPopularMoviesOn] = useState(true);
 
   useEffect(() => {
     const loadPopularMovies = async () => {
@@ -19,6 +20,7 @@ function Home() {
         setError("Failed to load movies...");
       } finally {
         setLoading(false);
+        setIsPopularMoviesOn(true);
       }
     };
 
@@ -30,6 +32,7 @@ function Home() {
     if (!searchQuery.trim()) return;
     if (loading) return;
 
+    setIsPopularMoviesOn(false);
     setLoading(true);
     try {
       const searchResults = await searchMovies(searchQuery);
@@ -63,11 +66,14 @@ function Home() {
       {loading ? (
         <div className="loading">Loading...</div>
       ) : (
-        <div className="movies-grid">
-          {movies.map((movie) => (
-            <MovieCard movie={movie} key={movie.id} />
-          ))}
-        </div>
+        <>
+          {isPopularMoviesOn ? <h2>Popular Movies</h2> : <></>}
+          <div className="movies-grid">
+            {movies.map((movie) => (
+              <MovieCard movie={movie} key={movie.id} />
+            ))}
+          </div>
+        </>
       )}
     </div>
   );
