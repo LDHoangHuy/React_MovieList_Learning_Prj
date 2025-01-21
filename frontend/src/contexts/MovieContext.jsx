@@ -25,6 +25,7 @@ export const MovieProvider = ({ children }) => {
 
   const removeFromFavorites = (movieId) => {
     setFavorites((prev) => prev.filter((movie) => movie.id !== movieId));
+    localStorage.removeItem("favorites", JSON.stringify(favorites));
   };
 
   const isFavorite = (movieId) => {
