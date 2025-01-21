@@ -75,6 +75,8 @@ function Home() {
           </div>
         </>
       )}
+
+      {movies.length === 0 ? <div className="no-results">No results</div> : <></>}
     </div>
   );
 }
