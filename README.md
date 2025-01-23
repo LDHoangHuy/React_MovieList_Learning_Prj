@@ -24,7 +24,7 @@ Some other bugs I coped with like: the favorite page did not render the right UI
 Fortunately, after some work, those bugs were temporarily solved.
 
 ## Next steps
-I plan to add more features, and more pages (e.g. the category page) to this project so that I can learn and practice with more concepts. I hope you enjoy the project and if there are bugs somewhere just let me know.<br />
+I plan to add more features, and more pages (e.g. the category page, the movie details page,...) to this project so that I can learn and practice with more concepts. I hope you enjoy the project and if there are bugs somewhere just let me know.<br />
 If you have any suggestions or ideas for improving the project, I'm welcome to receive your messages.
 
 
