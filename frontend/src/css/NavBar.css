@@ -5,15 +5,29 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  border-bottom: 2px solid #F74F3F;
 }
 
 .navbar-brand {
   font-size: 2rem;
-  font-weight: bold;
 }
 
 .navbar-brand a {
-  color: yellow;
+  background: linear-gradient(to right, #F74F3F 0%, #AF44AD 100%); 
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#logo {
+  width: 50px;
 }
 
 .navbar-links {
@@ -27,10 +41,13 @@
   border-radius: 4px;
   transition: background-color 0.2s;
   color: white;
+  font-weight: bold;
 }
 
 .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background: linear-gradient(to right, #F74F3F 0%, #AF44AD 100%); 
+  background-clip: text;
+  color: transparent;
 }
 
 @media (max-width: 768px) {

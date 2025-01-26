@@ -28,6 +28,7 @@ body {
   width: 100%;
   min-height: 100vh;
   position: relative;
+  padding-top: 90px;
 }
 
 #root {
@@ -72,8 +73,8 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #fff;
+    background-color: #2c2c2c;
   }
   a:hover {
     color: #747bff;
