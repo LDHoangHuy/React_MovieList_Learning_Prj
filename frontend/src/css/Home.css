@@ -16,21 +16,25 @@
 .search-input {
   flex: 1;
   padding: 0.75rem 1rem;
-  border: 1px solid black;
+  border: none;
   border-radius: 10px;
-  background-color: #ffffff;
-  color: black;
-  font-size: 1rem;
+  background-color: black;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.search-input:hover {
+  box-shadow: 0 0 0 1px #AF44AD;
 }
 
 .search-input:focus {
   outline: none;
-  box-shadow: 0 0 0 2px #666;
+  box-shadow: 0 0 0 2px #AF44AD;
 }
 
 .search-btn {
   padding: 0.75rem 1.5rem;
-  background-color: #e50914;
+  background: linear-gradient(90deg, #F74F3F 0%, #AF44AD 100%);
   color: white;
   border-radius: 10px;
   font-weight: 500;
@@ -39,7 +43,7 @@
 }
 
 .search-btn:hover {
-  background-color: #f40612;
+  background: linear-gradient(0deg, #F74F3F 0%, #AF44AD 100%);
 }
 
 
