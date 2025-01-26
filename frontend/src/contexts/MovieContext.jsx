@@ -36,7 +36,7 @@ export const MovieProvider = ({ children }) => {
     favorites,
     addToFavorites,
     removeFromFavorites,
-    isFavorite,
+    isFavorite
   };
 
   return (
