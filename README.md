@@ -1,4 +1,4 @@
-# React_MovieList_Learning_Prj
+# SukiTV
 This is a simple website where you can search for movies, and mark your favorites, which will be saved on your favorite page.
 
 ## Demo link
