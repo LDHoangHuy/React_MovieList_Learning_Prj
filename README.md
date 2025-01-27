@@ -1,8 +1,8 @@
-# React_MovieList_Learning_Prj
+# SukiTV
 This is a simple website where you can search for movies, and mark your favorites, which will be saved on your favorite page.
 
 ## Demo link
-<a href="https://react-movie-list-learning-prj.vercel.app/" target="_blank">https://react-movie-list-learning-prj.vercel.app/</a>
+<a href="https://sukitv.vercel.app" target="_blank">https://sukitv.vercel.app</a>
 
 ## Clone
 After cloning the repository, go to the frontend folder, and in the terminal you should type the following:<br />
